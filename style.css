@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     font-family: "Lato", sans-serif;
+     background-color: #F2F5F9;
+
+}
+.container{
+     width: 350px;
+     height: 450px;
+     background-color: #ffffff;
+     border-bottom-left-radius: 10px; 
+     border-bottom-right-radius: 10px;
+}
+.pic{
+     width: 350px;
+     height: 200px;
+     position: relative;
+}
+.hero{
+     width: 350px;
+     height: 190px;
+     position: absolute; 
+     border-radius: 10px;
+}
+.curve{
+     width: 350px;
+     position: absolute; 
+      bottom: 0;  
+}
+.text{
+     margin: 30px;
+}
+h2{
+     line-height: 1.7rem;
+     font-weight: 550;
+     margin-bottom: 15px;
+}
+p{
+     font-size: 13px;
+     line-height: 1.2rem;
+     color: #677489;
+
+}
+.about{
+   border-top: 1px solid #dce0e5;
+}
+.avatar{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     display: inline-block;
+}
+.small{
+     display: inline-block;
+     line-height: 8px;
+     margin-left: 10px;
+}
+.small-pic{
+     display: inline-block;
+      padding-left: 25px;
+      margin-top: 20px;
+}
+span{
+     color: #677489;
+      font-size: 12px;
+}
+h5{
+     font-size: 15px;
+    
+}
